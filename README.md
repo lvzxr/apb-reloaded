@@ -1,7 +1,5 @@
 # lzrapbcfg
 
-If reading this in notepad, click format and turn on word wrap. If in Notepad++, go to view and turn on word wrap.
-
 Create a shortcut of APB.exe from the binaries folder and use whichever launch arguments apply to how you install the config.
 If the game were to update be sure to reinstall everything as they will most likely have been overwritten, the outlier for that being localization as no German translation of the game exists currently.
 
