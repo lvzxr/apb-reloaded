@@ -51,10 +51,15 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 
+- Particle Removals - Removes particles based on what you put in your game.
+
+- Rainbow Concs - Makes conc trails rainbow, ends up looking mostly purple. Also makes the grenade from an OPGL glow.
+
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.
 
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
 
+- TEMP EMITTERS FIX - SETS THE PRIORTY OF EMITTERS VERY LOW (WILL OVERWRITE NO RAGDOLLS, TO MANUALLY DO THIS WITH NO RAGDOLLS SCROLL TO THE BOTTOM OF THE FILE AND SET THE EMITTER / NPC PRIORITIES TO 1)
 
 Anything that happens to your account due to using disallowed portions of this config is not my responsibility. USE AT YOUR OWN RISK =^w^=
 
