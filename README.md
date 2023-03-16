@@ -6,10 +6,10 @@ If the game were to update be sure to reinstall everything as they will most lik
 For ease of installing the entire config, I recommend making a folder either here or in the game directory and just copy paste all the different tweaks you use so it will just be an easy copy paste of everything all at once whenever you update your game.
 
 # Launch Arguments
-- language=1031 - Sets game to load with custom localization
-- nosteam       - Disables Steam integration so you will have to manually login
-- nomovies      - Removes loading screens, if this for whatever reason doesn't work try -nomoviesstartup
-- nosplash      - Removes initial splash screen upon boot
+- -language=1031 - Sets game to load with custom localization
+- -nosteam       - Disables Steam integration so you will have to manually login
+- -nomovies      - Removes loading screens, if this for whatever reason doesn't work try -nomoviesstartup
+- -nosplash      - Removes initial splash screen upon boot
 
 # Command Changes (If using localization)
 
