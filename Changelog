@@ -1,6 +1,10 @@
 #Changelog
 
-V2.21
+- V2.22
+ 
+ Added new localization variant intended for use with Engine Font (only available in grey). Removed redundant particle removal. Updated localization to include new titles and the now added recolours of older ones.
+
+- V2.21
 
  Minor change to DefaultEngine to provide proper support links, also added Temp Emitters Fix. Added Rainbow Concs and all particle removals back until they don't work anymore.
 
