@@ -18,32 +18,37 @@ For ease of installing the entire config, I recommend making a folder either her
 - /dance variants without the word dance -> /urban /michael /techno etc.
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
 
-# Graphics Presets
+# Graphics
+### High Grpahics Options
 
-- Minimal - High Characters, High Cars, Low Environment, Low Peds, High Props, High Weapons, Low VFX
-- Low 	- Low Poly Characters, High Cars, Low Environment, Low Peds, Mid Props, Low Weapons, Low VFX
-- Medium 	- High Characters, Clay Cars, Low Environment, Low Peds, Mid Props, Low Weapons, Low VFX
-- High 	- High Characters, High Cars, High Environment, High Peds, High Props, High Weapons, Low VFX
-- Max 	- High characters, High cars, High environment, High Peds, High Props, High Weapons, High VFX
+- MINIMAL		- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
+- LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Cirlces Off
+- MEDIUM 		- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off
+- HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off
+- MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces On
+
+### Low Graphics Options
+
+- MINIMAL		- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
+- LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
+- MEDIUM 		- Low Env, High Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off
+- HIGH 		- Low Env, HQ Low Poly Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off
+- MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off
 
 
 # Features
 
 - Auto Sprint / Hold Crouch - Always sprint without holding shift, just hit it once upon entering a district and spawning. Hold the crouch key rather than having it toggle.
 
-- Engine Tweaks - Some values tweaked to help (maybe) improve fps. This also sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and set MaxClientFramerate to that.
+- Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate.
 
-- Engine Font - Removes a lot of the games stock Helvetica font depending on which variant you choose.
+- Engine Tweaks (Streaming Disabled) - This does everything the same as the other file whilst also disabling texture streaming. Do note however that you will always crash after the third district change and this will cause your character to go white after your first district switch.
 
 - Faster UI - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam.
 
-- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if not go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. !!DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED!!
+- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
 
-- Localization - A variant of my localization that I use with a small variety of different colour presets. To have mission titles with equipment that Leefekyn made use "Alt Mission Titles". !!REQUIRES -language=1031 TO WORK!!
-
-- No Bloom - Removes the pipline for the bloom within the game but still allows for the blurred background of the inventory screen, just enable bloom with the shader in game and you will be able to see what is going on around you whilst changing weapon.
-
-- No Fog - Removes distance fog.
+- No Bloom - Removes the pipline for the bloom within the game but still allows for the blurred background of the inventory screen, just enable bloom with the shader in your file and you will be able to see what is going on around you whilst changing weapon.
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 
@@ -51,16 +56,12 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 
-- Particle Removals - Removes particles based on what you put in your game.
-
-- Rainbow Concs - Makes conc trails rainbow, ends up looking mostly purple. Also makes the grenade from an OPGL glow.
-
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.
 
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
 
 - TEMP EMITTERS FIX - SETS THE PRIORTY OF EMITTERS VERY LOW (WILL OVERWRITE NO RAGDOLLS, TO MANUALLY DO THIS WITH NO RAGDOLLS SCROLL TO THE BOTTOM OF THE FILE AND SET THE EMITTER / NPC PRIORITIES TO 1)
 
-Anything that happens to your account due to using disallowed portions of this config is not my responsibility. USE AT YOUR OWN RISK =^w^=
+Anything that happens to your account due to using this config is not my responsibility. >=^w^=<
 
 lazer :>
