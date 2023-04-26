@@ -23,7 +23,7 @@ For ease of installing the entire config, I recommend making a folder either her
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
 
 # Graphics
-### High Graphics Options
+### High Graphics Options - FOG ON BY DEFAULT
 
 - MINIMAL		- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
 - LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Cirlces Off
@@ -31,7 +31,7 @@ For ease of installing the entire config, I recommend making a folder either her
 - HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off
 - MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces On
 
-### Low Graphics Options
+### Low Graphics Options - FOG OFF BY DEFAULT
 
 - MINIMAL		- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
 - LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
