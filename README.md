@@ -45,7 +45,7 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Auto Sprint / Hold Crouch - Always sprint without holding shift, just hit it once upon entering a district and spawning. Hold the crouch key rather than having it toggle.
 
-- Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate.
+- Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate. Also sets smooth framerate to 128.
 
 - Engine Tweaks (Streaming Disabled) - This does everything the same as the other file whilst also disabling texture streaming. This also disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended. You may notice your character go white upon swapping districts sometimes, in that case just restart the game.
 
