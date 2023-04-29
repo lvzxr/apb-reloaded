@@ -46,7 +46,7 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate.
 
-- Engine Tweaks (Streaming Disabled) - This does everything the same as the other file whilst also disabling texture streaming. Do note however that you will always crash after the third district change and this will cause your character to go white after your first district switch.
+- Engine Tweaks (Streaming Disabled) - **HOLD OFF ON USING THIS CURRENTLY I AM LOOKING INTO A CRASH ISSUE** This does everything the same as the other file whilst also disabling texture streaming. Do note however that you will always crash after the third district change and this will cause your character to go white after your first district switch.
 
 - Faster UI - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam.
 
