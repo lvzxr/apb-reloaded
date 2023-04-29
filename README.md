@@ -6,7 +6,8 @@ If the game were to update be sure to reinstall everything as they will most lik
 For ease of installing the entire config, I recommend making a folder either here or in the game directory and just copy paste all the different tweaks you use so it will just be an easy copy paste of everything all at once whenever you update your game.
 
 # DISABLE MUZZLE FLASH
-- To do this go to APBGame/Config then open DefaultGame.ini, scroll to the bottom and there you can set "m_bEnableMuzzleFlash=true" to "m_bEnableMuzzleFlash=false" along with "m_bEnableMagazineCasings=true" to "m_bEnableMagazineCasings=false" if you wish. It should go without saying but if you use no ragdolls or the temp emitters fix do this after those files are in your game.
+- It should go without saying but if you use no ragdolls or the temp emitters fix do this after those files are in your game.
+- To do this go to APBGame/Config then open DefaultGame.ini, scroll to the bottom and there you can set "m_bEnableMuzzleFlash=true" to "m_bEnableMuzzleFlash=false" along with "m_bEnableMagazineCasings=true" to "m_bEnableMagazineCasings=false" if you wish. 
 
 # Launch Arguments
 
@@ -46,13 +47,11 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate.
 
-- Engine Tweaks (Streaming Disabled) - **HOLD OFF ON USING THIS CURRENTLY I AM LOOKING INTO A CRASH ISSUE** This does everything the same as the other file whilst also disabling texture streaming. Do note however that you will always crash after the third district change and this will cause your character to go white after your first district switch.
+- Engine Tweaks (Streaming Disabled) - This does everything the same as the other file whilst also disabling texture streaming. Do note however that you will always crash after the third district change and this will cause your character to go white after your first district switch.
 
 - Faster UI - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam.
 
 - Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
-
-- No Bloom - Removes the pipline for the bloom within the game but still allows for the blurred background of the inventory screen, just enable bloom with the shader in your file and you will be able to see what is going on around you whilst changing weapon.
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 
