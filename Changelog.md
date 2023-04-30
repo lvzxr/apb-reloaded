@@ -1,5 +1,10 @@
 # Changelog
 
+## [V2.31]
+
+- Should have fixed crash when using Engine Tweaks with Streaming Disabled
+- Minor modification to some values in Engine Tweaks
+
 ## [V2.3]
 
 - Removed Engine Font
