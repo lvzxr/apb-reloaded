@@ -24,7 +24,7 @@ For ease of installing the entire config, I recommend making a folder either her
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
 
 # Graphics
-### High Graphics Options - FOG ON BY DEFAULT
+### High Graphics Options - FOG OFF BY DEFAULT
 
 - MINIMAL		- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off
 - LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Cirlces Off
@@ -51,7 +51,7 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Faster UI - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam.
 
-- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
+- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. DB (Double Buffering) on vs off can differ based on system, pick based on whether you feel input lag or not. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 
