@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.32]
+- Added Dobule Buffering on / off presets for graphics rather than forced on
+- Disabled fog by default on high graphics file, you can change this ingame if you wish
+
 ## [V2.31]
 
 - Should have fixed crash when using Engine Tweaks with Streaming Disabled
