@@ -53,7 +53,7 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. I recommend trying to use double buffering if you do not feel input lag with it on as it is essentially free FPS. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
 
-- Graphics (Streaming Disabled) - Needed for "Engine Tweaks (Unstream On + Diskcache Off)
+- Graphics (Streaming Disabled) - Needed for "Engine Tweaks (Unstream On + Diskcache Off)"
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 
