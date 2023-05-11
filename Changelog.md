@@ -1,8 +1,14 @@
 # Changelog
 
+## [v2.33]
+- Added Streaming Disabled Graphics files as the global streaming disable no longer functions as it is being looked into
+- Added new Pink localization variant
+- Removed Double Buffering on and off files making off the default, just change the option ingame
+
 ## [v2.32]
 - Added Dobule Buffering on / off presets for graphics rather than forced on
 - Disabled fog by default on high graphics file, you can change this ingame if you wish
+- Removed disable player ragdolls only
 
 ## [V2.31]
 
