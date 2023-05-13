@@ -9,6 +9,11 @@ For ease of installing the entire config, I recommend making a folder either her
 - It should go without saying but if you use no ragdolls or the temp emitters fix do this after those files are in your game.
 - To do this go to APBGame/Config then open DefaultGame.ini, scroll to the bottom and there you can set "m_bEnableMuzzleFlash=true" to "m_bEnableMuzzleFlash=false" along with "m_bEnableMagazineCasings=true" to "m_bEnableMagazineCasings=false" if you wish. 
 
+# MAJOR FPS BOOST*
+- Engine Tweaks (Unstream On + Diskcache Off) - This disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended **MUST USE STREAMING DISABLED GRAPHICS FILES**
+- Graphics (Streaming Disabled) - **Needed for "Engine Tweaks (Unstream On + Diskcache Off)"**
+- I will adjust the folder structure of this in newer versions of the config >2.33
+
 # Launch Arguments
 
 - -language=1031 - Sets game to load with custom localization
@@ -47,13 +52,9 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate. Also sets smooth framerate to 128.
 
-- Engine Tweaks (Unstream On + Diskcache Off) - This does everything the same as the other file whilst also disabling texture streaming. This also disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended. **USE STREAMING OFF GRAPHICS FILES WITH THIS OPTION**
-
 - Faster UI - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam.
 
 - Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. I recommend trying to use double buffering if you do not feel input lag with it on as it is essentially free FPS. **DON'T USE ADVANCED LAUNCHER ON MY PRESETS AND SAVE YOUR OWN SETTINGS, EVERYTHING OTHER THAN MINIMAL WILL BE MODIFIED**
-
-- Graphics (Streaming Disabled) - Needed for "Engine Tweaks (Unstream On + Diskcache Off)"
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 
