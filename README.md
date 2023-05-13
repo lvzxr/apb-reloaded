@@ -3,24 +3,18 @@
 Create a shortcut of APB.exe from the binaries folder and use whichever launch arguments apply to how you install the config.
 If the game were to update be sure to reinstall everything as they will most likely have been overwritten, the outlier for that being localization as no German translation of the game exists currently.
 
-For ease of installing the entire config, I recommend making a folder either here or in the game directory and just copy paste all the different tweaks you use so it will just be an easy copy paste of everything all at once whenever you update your game.
-
-# DISABLE MUZZLE FLASH
-- It should go without saying but if you use no ragdolls or the temp emitters fix do this after those files are in your game.
-- To do this go to APBGame/Config then open DefaultGame.ini, scroll to the bottom and there you can set "m_bEnableMuzzleFlash=true" to "m_bEnableMuzzleFlash=false" along with "m_bEnableMagazineCasings=true" to "m_bEnableMagazineCasings=false" if you wish. 
-
-# MAJOR FPS BOOST*
-- Engine Tweaks (Unstream On + Diskcache Off) - This disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended **MUST USE STREAMING DISABLED GRAPHICS FILES**
-- Graphics (Streaming Disabled) - **Needed for "Engine Tweaks (Unstream On + Diskcache Off)"**
-- Gained FPS varies per system
-- I will adjust the folder structure of this in newer versions of the config >2.33
-
 # Launch Arguments
 
 - -language=1031 - Sets game to load with custom localization
 - -nosteam       - Disables Steam integration so you will have to manually login
 - -nomovies      - Removes loading screens, if this for whatever reason doesn't work try -nomoviesstartup
 - -nosplash      - Removes initial splash screen upon boot
+
+# FPS BOOST*
+- Engine Tweaks (Unstream On + Diskcache Off) - This disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended **MUST USE STREAMING DISABLED GRAPHICS FILES**
+- Graphics (Streaming Disabled) - **Needed for "Engine Tweaks (Unstream On + Diskcache Off)"**
+- Disables the games ability to smoothly transition between LOD states as it can cause slowdown
+- Gained FPS varies per system
 
 # Command Changes (If using localization)
 
@@ -63,11 +57,15 @@ For ease of installing the entire config, I recommend making a folder either her
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 
-- Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.
+- Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.#
+
+- Remove Ambient Sounds - Removes a large majority of ambient sounds
+
+- Remove Dialogue - Removes all speech and screams from your character and other npcs
 
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
 
-- TEMP EMITTERS FIX - SETS THE PRIORTY OF EMITTERS VERY LOW (WILL OVERWRITE NO RAGDOLLS, TO MANUALLY DO THIS WITH NO RAGDOLLS SCROLL TO THE BOTTOM OF THE FILE AND SET THE EMITTER / NPC PRIORITIES TO 1)
+- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash
 
 Anything that happens to your account due to using this config is not my responsibility. >=^w^=<
 
