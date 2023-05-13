@@ -1,5 +1,14 @@
 # Changelog
 
+## [V2.4]
+- Completely redone folder structure
+- Added audio removals
+- Added presets of ragdolls + muzzle flash + emitters fix
+- Slightly reorganised readme and cosnolidated to the Github page
+- Fixed some scav missions not displaying in top right properly
+- Labelled which files will overwrite FPS Boost for those using it
+- Removed no notifications, I will at a later date write how to do this in a separate Github text doc
+
 ## [v2.33]
 - Added Streaming Disabled Graphics files as the global streaming disable no longer functions as it is being looked into
 - Added new Pink localization variant
