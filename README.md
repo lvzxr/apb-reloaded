@@ -12,6 +12,7 @@ For ease of installing the entire config, I recommend making a folder either her
 # MAJOR FPS BOOST*
 - Engine Tweaks (Unstream On + Diskcache Off) - This disables disk cache so if your system has a low amount of RAM e.g 8GB total this is not recommended **MUST USE STREAMING DISABLED GRAPHICS FILES**
 - Graphics (Streaming Disabled) - **Needed for "Engine Tweaks (Unstream On + Diskcache Off)"**
+- Gained FPS varies per system
 - I will adjust the folder structure of this in newer versions of the config >2.33
 
 # Launch Arguments
