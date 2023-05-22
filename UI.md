@@ -1,6 +1,6 @@
-#Located within APBGame/Config/DefaultEngine.ini
+# Located within APBGame/Config/DefaultEngine.ini
 
-##All of the elements of the UI you wish to disable can be done by putting ; before any of these GlobalDataStores. Not all are listed here but that's due to either crashing your game or disabling a core part of the game.
+## All of the elements of the UI you wish to disable can be done by putting ; before any of these GlobalDataStores. Not all are listed here but that's due to either crashing your game or disabling a core part of the game.
 
 ## Crosshair
 - +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Reticule"
