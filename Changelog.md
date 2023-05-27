@@ -1,5 +1,12 @@
 # Changelog
 
+## [V2.5]
+- Added keybinds folder
+- Removed streaming disabled graphics file
+- Removed always sprint + hold to crouch (replaced with keybinds)
+- Separated localization and faster ui in own respective folder
+- Added links to both Readme and how to disable parts of the UI into Readme.txt
+
 ## [V2.4]
 - Completely redone folder structure
 - Added audio removals
