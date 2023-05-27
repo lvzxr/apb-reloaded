@@ -52,6 +52,8 @@ Target Field Example
 # Keybinds
 All of the binds listed below are there as additions to the original keybinds so you have the choice rather than being forced to use one or the other. This just means that you will have to go to the respective keybind category and set which options you prefer.
 
+By default your game will be using the binds you had previously or if you're on a fresh account some binds will now be completely blank, simply go into Options > Controls and set them manually.
+
 *Category listed at beginning*
 
    - Interface | Abandon Mission - Lets you abandon an unopposed mission by pressing a key
