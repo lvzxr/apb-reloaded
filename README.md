@@ -79,7 +79,6 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Features
 
-- Engine Tweaks - This sets the fps limit to 0, if you would like to make it your monitors refresh rate open this file and change MaxClientFramerate. Also sets smooth framerate to 128.
 - FPS Boost - All information above.
 - Keybinds - All information above.
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing. If you get EAC issues using this just repair and leave the file stock.
