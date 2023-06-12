@@ -1,5 +1,10 @@
 # Changelog
 
+## [V2.6]
+- Added experimental files with garbage collection disabled
+- Folder name changes
+- Removed engine tweaks
+
 ## [V2.5]
 - Added keybinds folder
 - Removed streaming disabled graphics file
