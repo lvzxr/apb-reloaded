@@ -19,11 +19,18 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
-# FPS Boost
-- Engine Tweaks (Unstream On + Diskcache Off + Streaming Off) - This disables disk cache so if your system has a low amount of RAM (Below 16GB) this is not recommended.
+# FPS Boost (Do not mix with 'Experimental Files')
+- This disables disk cache so if your system has a low amount of RAM (Below 16GB) this is not recommended
 - Disables the games ability to smoothly transition between LOD states as it can cause slowdown
 - Gained FPS varies per system
 - With this on if you swap between graphics presets whilst ingame you will have to swap district in order for them to apply, the exception being if you swap to low poly character models
+
+# Experimental Files (Do not mix with 'FPS Boost')
+- These files completely disable the garbage collection system so is absolultey not recommended for systems with <16GB of RAM.
+- You may crash whilst using these files but there are multiple variations to try, just use what's best for you
+- Gained FPS varies per system
+- You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
+- Some of the social kiosks e.g clothing, vehicle and character may not load with these files
 
 # Command Changes (If using localization)
 
@@ -102,7 +109,7 @@ As this is something that can be quite customised I'm not going to create preset
 - Esurient - Engine Tweaks
 - Leefekyn - Alt Mission Titles
 - mewpri - Studio Keybinds
-- Kyouki - Amibient Sound Removal
+- Kyouki - Amibient Sound Removal, Experimental Files
 - ApollyoNite - RTW Vegas
 - jmilos - Texture Streaming, Extra Keybinds
 
