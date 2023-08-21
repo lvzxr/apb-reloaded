@@ -49,6 +49,15 @@ Target Field Example
 - HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
 - MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces On, Fog Off
 
+### Mid Graphics Options
+
+- MINIMAL	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
+- LOW 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Cirlces Off, Fog Off
+- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
+- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
+- MAXIMUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces On, Fog Off
+
+
 ### Low Graphics Options
 
 - MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
