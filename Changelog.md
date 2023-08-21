@@ -1,5 +1,12 @@
 # Changelog
 
+## [V2.7]
+- FPS Boost name changed to No Streaming + GC On
+- Experimental Files moved to features folder
+- Various misc localization changed
+- Flipped camera look up and down as they were inverted in input file
+- Added Mid graphics option
+
 ## [V2.6]
 - Added experimental files with garbage collection disabled
 - Folder name changes
