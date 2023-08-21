@@ -19,18 +19,19 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
-# FPS Boost (Do not mix with 'Experimental Files')
+# No Streaming + GC On (Do not mix with 'Experimental Files')
 - This disables disk cache so if your system has a low amount of RAM (Below 16GB) this is not recommended
 - Disables the games ability to smoothly transition between LOD states as it can cause slowdown
 - Gained FPS varies per system
 - With this on if you swap between graphics presets whilst ingame you will have to swap district in order for them to apply, the exception being if you swap to low poly character models
+- As garbage dump is still on with these files I recommend using the 'Experiemental Files' unless you are chronically changing your outfit all the time
 
-# Experimental Files (Do not mix with 'FPS Boost')
+# Experimental Files (Do not mix with 'No Streaming + GC On')
 - These files completely disable the garbage collection system so is absolultey not recommended for systems with <16GB of RAM.
 - You may crash whilst using these files but there are multiple variations to try, just use what's best for you
 - Gained FPS varies per system
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
-- Some of the social kiosks e.g clothing, vehicle and character may not load with these files
+- Some of the social kiosks e.g clothing, vehicle and character will not load with these files
 
 # Command Changes (If using localization)
 
@@ -42,17 +43,17 @@ Target Field Example
 # Graphics
 ### High Graphics Options
 
-- MINIMAL		- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
+- MINIMAL	- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Cirlces Off, Fog Off
-- MEDIUM 		- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
+- MEDIUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
 - HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces Off, Fog Off
 - MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Cirlces On, Fog Off
 
 ### Low Graphics Options
 
-- MINIMAL		- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
+- MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 		- Low Env, High Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
+- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - HIGH 		- Low Env, HQ Low Poly Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
 
@@ -65,7 +66,7 @@ By default your game will be using the binds you had previously or if you're on 
 
    - Interface | Abandon Mission - Lets you abandon an unopposed mission by pressing a key
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
-   - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once when entering a district and you will always be running
+   - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
    - Movement  | Crouch (Hold) - The same as previous hold to crouch except now ingame!
    - Combat    | Lean (Hold) - Hold down the lean key rather than have it toggle
    - Combat    | Primary/Secondary weapon - Allows you to set keys to select which weapon you want rather than cycle between them which is the default behaviour
@@ -79,13 +80,14 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Features
 
-- FPS Boost - All information above.
+- No Streaming + GC On - All information above.
+- Experimental Files - All information above.
 - Keybinds - All information above.
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing. If you get EAC issues using this just repair and leave the file stock.
 
 ## Interface
 
-- Faster UI - Changes what file the UI is read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua is more broken than Adam but also includes the white mission timer.
+- Faster UI - Changes what file the UI is read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Jeshua includes a white mission timer however completely breaks the UI in editors so a lot of text will be missing.
 - Localization - My custom take on APB's localization a lot of stuff has been shortened and or removed.
 
 ## Visual
@@ -93,7 +95,7 @@ As this is something that can be quite customised I'm not going to create preset
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 - No Ragdolls - Removes player/pedestrian ragdolls.
 - Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. I recommend trying to use double buffering if you do not feel input lag with it on, as it is essentially free FPS.
-- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
+- Emitter Fix (Included as part of ragdoll files) - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
 
 ## Audio
 
@@ -108,8 +110,8 @@ As this is something that can be quite customised I'm not going to create preset
 - Esurient - Engine Tweaks
 - Leefekyn - Alt Mission Titles
 - mewpri - Studio Keybinds
-- Kyouki - Amibient Sound Removal, Experimental Files
+- Kyouki - Ambient Sound Removal, Experimental Files
 - ApollyoNite - RTW Vegas
-- jmilos - Texture Streaming, Extra Keybinds
+- jmilos - Extra Keybinds
 
 # [Changelog](https://github.com/lvzxr/apb-reloaded/blob/main/Changelog.md) 
