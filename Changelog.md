@@ -4,6 +4,7 @@
 - FPS Boost name changed to No Streaming + GC On
 - Experimental Files moved to features folder
 - Various misc localization changed
+- Added more vanilla localization variation
 - Flipped camera look up and down as they were inverted in input file
 - Added Mid graphics option
 
