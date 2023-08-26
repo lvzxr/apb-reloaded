@@ -53,7 +53,7 @@
 ### Dirty money top left
 - +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_OpenWorld"
 
-### Fight Club challenges top left, crashes in baylan if you try to skip activity
+### Fight Club challenges top left
 - +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Challenges"
 
 ### Daily activities top left
