@@ -11,6 +11,9 @@
 ### Character list top left
 - +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Group"
 
+### Killfeed
+- +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_ActionMessage"
+
 ### Hitmarkers
 - +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_HitIndicators"
 
