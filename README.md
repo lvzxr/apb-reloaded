@@ -33,17 +33,17 @@ Target Field Example
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
 - The recommended option for the most FPS is **No GC + Unstream On (Diskcache Off)**
 
+# Misc Changes
+
+- If you wish to disable the effect of bloom after you've applied config files, go to `Engine/Config/BaseEngine.ini`, put a ; before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame. With this you will not have bloom but you will have a semi-transparent inventory screen so you can see what is around you better
+- If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights 
+
 # Command Changes (If using localization)
 
 - /exit -> /rq
 - /abandonmission -> /a
 - /dance variants without the word dance -> /urban /michael /techno etc.
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
-
-# Misc Changes
-
-- If you wish to disable the effect of bloom after you've applied config files, go to `Engine/Config/BaseEngine.ini`, put a ; before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame. With this you will not have bloom but you will have a semi-transparent inventory screen so you can see what is around you better
-- If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights 
 
 # Graphics
 ### High Graphics Options
