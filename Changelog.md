@@ -1,5 +1,12 @@
 # Changelog
 
+## [V2.71]
+- Experimental Files name changed to GC Off
+- All localization presets mission descriptions updated
+- Added coloured weapon names files as option in localization
+- Added Vegas + Bishada sound file
+- Updated Keybinds to include hold option for siren
+
 ## [V2.7]
 - FPS Boost name changed to No Streaming + GC On
 - Experimental Files moved to features folder
