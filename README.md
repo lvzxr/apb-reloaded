@@ -35,8 +35,9 @@ Target Field Example
 
 # Misc Changes
 
-- If you wish to disable the effect of bloom after you've applied config files, go to `Engine/Config/BaseEngine.ini`, put a ; before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame. With this you will not have bloom but you will have a semi-transparent inventory screen so you can see what is around you better
-- If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights 
+- If you wish to disable the effect of bloom after you've applied config files, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame. With this you will not have bloom but you will have a semi-transparent inventory screen so you can see what is around you better
+- If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights
+- If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them
 
 # Command Changes (If using localization)
 
