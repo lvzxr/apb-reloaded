@@ -19,7 +19,7 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
-# No Streaming + GC On (Do not mix with 'Experimental Files')
+# No Streaming + GC On (Do not mix with 'GC Off')
 - All of the social kiosks e.g clothing, vehicle and character work fine with these files.
 - Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
 - Gained FPS varies per system
