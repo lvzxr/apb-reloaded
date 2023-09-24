@@ -20,18 +20,18 @@ Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
 # No Streaming + GC On (Do not mix with 'Experimental Files')
-- This disables disk cache so if your system has a low amount of RAM (Below 16GB) this is not recommended
-- Disables the games ability to smoothly transition between LOD states as it can cause slowdown
+- All of the social kiosks e.g clothing, vehicle and character work fine with these files.
+- Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
 - Gained FPS varies per system
-- With this on if you swap between graphics presets whilst ingame you will have to swap district in order for them to apply, the exception being if you swap to low poly character models
-- As garbage dump is still on with these files I recommend using the 'Experiemental Files' unless you are chronically changing your outfit all the time
+- As garbage dump is still on with these files I recommend using the 'Experiemental Files' unless you are changing your outfit all the time
 
-# Experimental Files (Do not mix with 'No Streaming + GC On')
-- These files completely disable the garbage collection system so is absolultey not recommended for systems with <16GB of RAM.
+# GC Off (Do not mix with 'No Streaming + GC On')
+- Some of the social kiosks e.g clothing, vehicle and character will not load with these files
+- These files completely disable the garbage collection system so is absolultey not recommended for systems with less than 16GB of RAM.
 - You may crash whilst using these files but there are multiple variations to try, just use what's best for you
 - Gained FPS varies per system
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
-- Some of the social kiosks e.g clothing, vehicle and character will not load with these files
+- The recommended option for the most FPS is **No GC + Unstream On (Diskcache Off)**
 
 # Command Changes (If using localization)
 
@@ -39,6 +39,11 @@ Target Field Example
 - /abandonmission -> /a
 - /dance variants without the word dance -> /urban /michael /techno etc.
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
+
+# Misc Changes
+
+- If you wish to disable the effect of bloom after you've applied config files, go to `Engine/Config/BaseEngine.ini`, put a ; before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame. With this you will not have bloom but you will have a semi-transparent inventory screen so you can see what is around you better
+- If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights 
 
 # Graphics
 ### High Graphics Options
@@ -56,7 +61,6 @@ Target Field Example
 - MEDIUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
 - HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
 - MAXIMUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
-
 
 ### Low Graphics Options
 
@@ -77,6 +81,7 @@ By default your game will be using the binds you had previously or if you're on 
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
    - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
    - Movement  | Crouch (Hold) - The same as previous hold to crouch except now ingame!
+   - Driving   | Vehicle Special Function (Hold) - This allows you to hold the siren on rather than have it toggle, if it gets stuck hold the button whilst getting out of the car to reset it 
    - Combat    | Lean (Hold) - Hold down the lean key rather than have it toggle
    - Combat    | Primary/Secondary weapon - Allows you to set keys to select which weapon you want rather than cycle between them which is the default behaviour
    - Music     | Music Player Volume - Controls the volume of the music player in steps of 20
@@ -90,7 +95,7 @@ As this is something that can be quite customised I'm not going to create preset
 ## Features
 
 - No Streaming + GC On - All information above.
-- Experimental Files - All information above.
+- GC Off - All information above.
 - Keybinds - All information above.
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing. If you get EAC issues using this just repair and leave the file stock.
 
@@ -115,12 +120,12 @@ As this is something that can be quite customised I'm not going to create preset
 # Credits
 
 - Flaws - Older Keybinds, File Structure, No Ragdolls
-- rooq - Mission Stages
-- Esurient - Engine Tweaks
+- rooq - Mission Descriptions
+- Esurient - Engine Related Changes
 - Leefekyn - Alt Mission Titles
 - mewpri - Studio Keybinds
-- Kyouki - Ambient Sound Removal, Experimental Files
-- ApollyoNite - RTW Vegas
-- jmilos - Extra Keybinds
+- Kyouki - Ambient Sound Removal, GC Related Stuff
+- ApollyoNite - RTW Vegas / Bishada
+- jmilos - Combat / Vehicle Keybinds
 
 # [Changelog](https://github.com/lvzxr/apb-reloaded/blob/main/Changelog.md) 
