@@ -23,7 +23,6 @@ Target Field Example
 - All of the social kiosks e.g clothing, vehicle and character work fine with these files.
 - Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
 - Gained FPS varies per system
-- As garbage dump is still on with these files I recommend using the 'Experiemental Files' unless you are changing your outfit all the time
 
 # GC Off (Do not mix with 'No Streaming + GC On')
 - Some of the social kiosks e.g clothing, vehicle and character will not load with these files
