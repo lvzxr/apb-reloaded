@@ -19,12 +19,12 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
-# GC On + Streaming Off  (Do not mix with 'GC Off')
+# GC On + Streaming Off  (Do not mix with 'GC Off Stutter Fix')
 - All of the social kiosks e.g clothing, vehicle and character work fine with these files.
 - Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
 - Gained FPS varies per system
 
-# GC Off Stutter Fix (Do not mix with 'No Streaming + GC On')
+# GC Off Stutter Fix (Do not mix with 'GC On + Streaming Off')
 - Some of the social kiosks e.g clothing, vehicle and character will not load with these files
 - These files completely disable the garbage collection system so is absolultey not recommended for systems with less than 16GB of RAM.
 - You may crash whilst using these files but there are multiple variations to try, just use what's best for you
