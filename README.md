@@ -19,12 +19,12 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
-# No Streaming + GC On (Do not mix with 'GC Off')
+# GC On + Streaming Off  (Do not mix with 'GC Off')
 - All of the social kiosks e.g clothing, vehicle and character work fine with these files.
 - Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
 - Gained FPS varies per system
 
-# GC Off (Do not mix with 'No Streaming + GC On')
+# GC Off Stutter Fix (Do not mix with 'No Streaming + GC On')
 - Some of the social kiosks e.g clothing, vehicle and character will not load with these files
 - These files completely disable the garbage collection system so is absolultey not recommended for systems with less than 16GB of RAM.
 - You may crash whilst using these files but there are multiple variations to try, just use what's best for you
@@ -36,7 +36,7 @@ Target Field Example
 
 - If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame
 - If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights
-- If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them
+- If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time
 
 # Command Changes (If using localization)
 
@@ -66,8 +66,8 @@ Target Field Example
 
 - MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- HIGH 		- Low Env, HQ Low Poly Character, Clay Car, Low Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
+- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
+- HIGH 		- Low Env, HQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
 - MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
 
 # Keybinds
@@ -77,7 +77,7 @@ By default your game will be using the binds you had previously or if you're on 
 
 *Category listed at beginning*
 
-   - Interface | Abandon Mission - Lets you abandon an unopposed mission by pressing a key
+   - Interface | Abandon Mission - Lets you abandon an unopposed mission by pressing a key (Will be removed after MM Update)
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
    - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
    - Movement  | Crouch (Hold) - The same as previous hold to crouch except now ingame!
@@ -94,8 +94,8 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Features
 
-- No Streaming + GC On - All information above.
-- GC Off - All information above.
+- GC On + Streaming Off  - All information above.
+- GC Off Stutter Fix - All information above.
 - Keybinds - All information above.
 - Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing. If you get EAC issues using this just repair and leave the file stock.
 
@@ -108,13 +108,14 @@ As this is something that can be quite customised I'm not going to create preset
 
 - No Login Screen - Sets login screen to a black scene, still allows character creation.
 - No Ragdolls - Removes player/pedestrian ragdolls.
-- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen. I recommend trying to use double buffering if you do not feel input lag with it on, as it is essentially free FPS.
+- Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen.
 - Emitter Fix (Included as part of ragdoll files) - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
 
 ## Audio
 
 - Remove Ambient Sounds - Removes a large majority of ambient sounds.
 - Remove Dialogue - Removes all speech and screams from your character and other npcs.
+- Vegas Sound / Bishada Sound - Replaces the standard vegas and bishada engine sounds with older RTW sounds.
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
 
 # Credits
@@ -129,3 +130,4 @@ As this is something that can be quite customised I'm not going to create preset
 - jmilos - Combat / Vehicle Keybinds
 
 # [Changelog](https://github.com/lvzxr/apb-reloaded/blob/main/Changelog.md) 
+# [Flaws APB Config](https://github.com/flawsv/apb)
