@@ -1,5 +1,5 @@
 # Initial
-Whilst everything in this config is green lighted and allowed to be used as of 27/05/2023 if anything does happen to your account due to the use of this config, that is not my responsibility.
+Whilst everything in this config is green lighted and allowed to be used as of 21/01/2024 if anything does happen to your account due to the use of this config, that is not my responsibility.
 
 # Install
 
@@ -20,33 +20,40 @@ Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
 # GC On + Streaming Off  (Do not mix with 'GC Off Stutter Fix')
-- All of the social kiosks e.g clothing, vehicle and character work fine with these files.
-- Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see until you swap district
+- All of the social kiosks e.g clothing, vehicle and character work fine with these files
+- Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see without restarting
 - Gained FPS varies per system
 
 # GC Off Stutter Fix (Do not mix with 'GC On + Streaming Off')
 - Some of the social kiosks e.g clothing, vehicle and character will not load with these files
-- These files completely disable the garbage collection system so is absolutely not recommended for systems with less than 8GB RAM free at idle state.
-- You may crash whilst using these files but there are multiple variations to try, just use what's best for you
+- These files completely disable the garbage collection system so is absolutely not recommended for systems with ~8GB RAM free at idle state
+- This includes Streaming off as there is no downside to using it and will provide free fps the the large majority of systems
 - Gained FPS varies per system
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
-- The recommended option for the most FPS is **No GC + Unstream On (Diskcache Off)**
 
 # Misc Changes
 
-- If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame
+- **If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame**
 - If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights
 - If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time
 
 # Command Changes (If using localization)
 
 - /exit -> /rq
-- /abandonmission -> /a
+- /abandonmission -> /a (Will be made redundant after MM update)
 - /dance variants without the word dance -> /urban /michael /techno etc.
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
 
 # Graphics
-### High Graphics Options
+### Mixed
+
+- MINIMAL	- High Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
+- LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
+- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
+- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
+- MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
+
+### High
 
 - MINIMAL	- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
@@ -54,15 +61,15 @@ Target Field Example
 - HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
 - MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
 
-### Mid Graphics Options
+### Mid
 
 - MINIMAL	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
-- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
+- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
+- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
 - MAXIMUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
 
-### Low Graphics Options
+### Low
 
 - MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
 - LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
@@ -88,6 +95,7 @@ By default your game will be using the binds you had previously or if you're on 
    - Camera    | Camera look up/down - Extremely fast but there if you really need it
 
 *The default Xbox input should disabled with this file or at least partly so most functionality from a controller should no longer work with this.*
+*If you experience issues such as keybinds being reset, be sure to use any version after v2.8, this should only affect those using a French keyboard layout*
 
 # Disabling UI Elements
 As this is something that can be quite customised I'm not going to create presets for it however a quick rundown for how to do it can be found here: [Inteface](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md)
