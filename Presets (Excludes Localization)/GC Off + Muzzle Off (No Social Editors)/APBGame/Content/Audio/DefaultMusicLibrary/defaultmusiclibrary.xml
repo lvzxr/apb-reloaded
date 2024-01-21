@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MusicPlayer Version="1">
+  <Library>
+  </Library>
+  <Config>
+    <CurrentPlaybackInformation CurrentPlayingPlaylistID="-1" CurrentPlayingPlaylistTrackIndex="-1" CurrentPlayingTrackID="-1" PlaybackPosition="0" StorePlaybackSettings="true" Volume="0.000000" Random="true" Loop="Playlist" PlaybackOnFoot="false" BroadcastFromVehicle="false" EnvironmentFilter="true" AutoResume="true" />
+    <GeneralSettings ShowEULA="false" PermaDeleteOnRemove="false" DisplayPlayerHud="true" />
+  </Config>
+</MusicPlayer>
