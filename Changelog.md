@@ -1,5 +1,18 @@
 # Changelog
 
+## [V2.8]
+- Updated all localization variants
+- Updated low and mid graphics variants
+- Added mixed graphics file
+- Added presets for commonly used options and those that are unsure what to use
+
+## [V2.72]
+- Minor fixes/tweaks to localization, including new lines ready for MM
+- Updated low graphics file to disable anisotropy and eyelash rendering + Mid file no anisotropy
+- Set camera to calculate on client in ragdoll related files
+- Removed unnecessary login screen files
+- Added Double Buffering on option for graphics
+
 ## [V2.71]
 - Experimental Files name changed to GC Off
 - All localization presets mission descriptions updated
