@@ -20,7 +20,7 @@
 ### Killfeed
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_ActionMessage"
 
-### Hitmarkers
+### Radial hit circle (Tells you where you're being hit from)
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_HitIndicators"
 
 ### Health indication

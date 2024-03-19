@@ -84,7 +84,6 @@ By default your game will be using the binds you had previously or if you're on 
 
 *Category listed at beginning*
 
-   - Interface | Abandon Mission - Lets you abandon an unopposed mission by pressing a key (Will be removed after MM Update)
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
    - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
    - Movement  | Crouch (Hold) - The same as previous hold to crouch except now ingame!
