@@ -135,6 +135,7 @@ As this is something that can be quite customised I'm not going to create preset
 - Kyouki - Ambient Sound Removal, GC Related Stuff
 - ApollyoNite - RTW Vegas / Bishada
 - jmilos - Combat / Vehicle Keybinds
+- vestice - Fixing bad grammer :-)
 
 # [Changelog](https://github.com/lvzxr/apb-reloaded/blob/main/Changelog.md) 
 # [Flaws APB Config](https://github.com/flawsv/apb)
