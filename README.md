@@ -86,7 +86,8 @@ By default your game will be using the binds you had previously or if you're on 
 
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
    - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
-   - Movement  | Crouch (Hold) - The same as previous hold to crouch except now ingame!
+   - Movement  | Crouch (Old Hold) - The same hold to crouch we've had for years that can get stuck with jump + crouch/sprint + crouch
+   - Movement  | Crouch (New Hold) - Alternative method for hold to crouch that doesn't get stuck as it implements a jump before crouching
    - Driving   | Vehicle Special Function (Hold) - This allows you to hold the siren on rather than have it toggle, if it gets stuck hold the button whilst getting out of the car to reset it 
    - Combat    | Lean (Hold) - Hold down the lean key rather than have it toggle
    - Combat    | Primary/Secondary weapon - Allows you to set keys to select which weapon you want rather than cycle between them which is the default behaviour
@@ -97,7 +98,7 @@ By default your game will be using the binds you had previously or if you're on 
 *If you experience issues such as keybinds being reset, be sure to use any version after v2.8, this should only affect those using a French keyboard layout*
 
 # Disabling UI Elements
-As this is something that can be quite customised I'm not going to create presets for it however a quick rundown for how to do it can be found here: [Inteface](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md)
+As this is something that can be quite customised I'm not going to create presets for it however a quick rundown for how to do it can be found here: [Interface](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md)
 
 ## Features
 
