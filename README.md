@@ -105,7 +105,6 @@ As this is something that can be quite customised I'm not going to create preset
 - GC On + Streaming Off  - All information above.
 - GC Off Stutter Fix - All information above.
 - Keybinds - All information above.
-- Remove Vivox - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing. If you get EAC issues using this just repair and leave the file stock.
 
 ## Interface
 
@@ -121,14 +120,12 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Audio
 
-- Remove Ambient Sounds - Removes a large majority of ambient sounds.
-- Remove Dialogue - Removes all speech and screams from your character and other npcs.
-- Vegas Sound / Bishada Sound - Replaces the standard vegas and bishada engine sounds with older RTW sounds.
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
+- Remove Default Music - Removes the default music that comes with the game (previously a part of Vehicle Amp Levels)
 
 # Credits
 
-- Flaws - Older Keybinds, File Structure, No Ragdolls
+- Flaws - No Ragdolls
 - rooq - Mission Descriptions
 - Esurient - Engine Related Changes
 - Leefekyn - Alt Mission Titles
@@ -138,5 +135,5 @@ As this is something that can be quite customised I'm not going to create preset
 - jmilos - Combat / Vehicle Keybinds
 - vestice - Fixing bad grammer :-)
 
-# [Changelog](https://github.com/lvzxr/apb-reloaded/blob/main/Changelog.md) 
 # [Flaws APB Config](https://github.com/flawsv/apb)
+# [xaizone APB Config](https://github.com/xaizone/apb-reloaded)
