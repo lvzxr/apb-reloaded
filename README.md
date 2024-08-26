@@ -1,5 +1,5 @@
 # Initial
-Whilst everything in this config is green lighted and allowed to be used as of 21/01/2024 if anything does happen to your account due to the use of this config, that is not my responsibility.
+Whilst everything in this config is green lighted and allowed to be used as of 26/08/2024 if anything does happen to your account due to the use of this config, that is not my responsibility.
 
 # Install
 
@@ -40,8 +40,8 @@ Target Field Example
 # Command Changes (If using localization)
 
 - /exit -> /rq
-- /abandonmission -> /a (Will be made redundant after MM update)
-- /dance variants without the word dance -> /urban /michael /techno etc.
+- /dance variants -> /urban /michael /techno etc.
+- /strikeapose1/2 -> /pose1 /pose2
 - /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
 
 # Graphics
@@ -113,10 +113,9 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Visual
 
-- No Login Screen - Sets login screen to a black scene, still allows character creation.
 - No Ragdolls - Removes player/pedestrian ragdolls.
 - Graphics - Preset settings listed above. Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like, if it doesn't work go into APBMachineOptions and remove the DynamicShadows and LightEnvironmentShadows lines, save, restart the game then re-enable shadows again. When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen.
-- Emitter Fix (Included as part of ragdoll files) - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
+- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
 
 ## Audio
 
