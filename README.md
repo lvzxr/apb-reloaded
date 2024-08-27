@@ -122,6 +122,10 @@ As this is something that can be quite customised I'm not going to create preset
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
 - Remove Default Music - Removes the default music that comes with the game (previously a part of Vehicle Amp Levels)
 
+# Remove / Uninstall
+
+If you wish to uninstall the config it is recommended that you run the `Repair` within the APB Launcher to get back to stock. Other than that all you should need to do is **Delete DefaultCompat.ini** from `APBGame\Config` and **Delete GER** from `APBGame\Localization`. Once both of those are deleted and the launcher has repaired, the config should be completely removed.
+
 # Credits
 
 - Flaws - No Ragdolls
