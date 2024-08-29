@@ -19,6 +19,10 @@ When the game updates you will have to reapply most of the config as the launche
 Target Field Example
 `"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
+# Disclaimer
+
+Due to the new way the login screen removal works, if you wish to make a new character you should do this before putting a config into your game.
+
 # GC On + Streaming Off  (Do not mix with 'GC Off Stutter Fix')
 - All of the social kiosks e.g clothing, vehicle and character work fine with these files
 - Disables the texture streaming system forcing whichever graphics you start with to be the maximum you'll see without restarting
@@ -120,7 +124,7 @@ As this is something that can be quite customised I'm not going to create preset
 ## Audio
 
 - Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
-- Remove Default Music - Removes the default music that comes with the game (previously a part of Vehicle Amp Levels)
+- Remove Default Music - Removes the default music that comes with the game (previously a part of Vehicle Amp Levels).
 
 # Remove / Uninstall
 
