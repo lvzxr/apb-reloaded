@@ -144,3 +144,4 @@ If you wish to uninstall the config it is recommended that you run the `Repair` 
 
 # [Flaws APB Config](https://github.com/flawsv/apb)
 # [xaizone APB Config](https://github.com/xaizone/apb-reloaded)
+# [myamai Colours Cheat Sheet](https://myamai.neocities.org/apb/localization)
