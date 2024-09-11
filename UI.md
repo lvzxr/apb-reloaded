@@ -75,9 +75,10 @@
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_APBImages"
 
 # Modified kill feed
-When putting the modified kill feed in you will need to change <ENEMY COLOUR>, <TEAM COLOUR> and <MISC COLOUR> to a colour of your liking using the list provided on the 'APB Localization Resources' listed at the bottom of the Readme, once you've changed those you can just overwrite lines 104-149 if using my localization and lines 107-152 if using Flaws localization.
+When putting the modified kill feed in you will need to change ```<ENEMY COLOUR>, <TEAM COLOUR> and <MISC COLOUR>``` to a colour of your liking using the list provided on the 'APB Localization Resources' listed at the bottom of the Readme, once you've changed those you can just overwrite lines 104-149 if using my localization and lines 107-152 if using Flaws localization.
 
 ## Stock kill feed layout (P1 Weapon P2)
+```
 HUDMessages_AM_CombatArrestOpp_DisplayText=<ENEMY COLOUR><ArrestingCharacterName></col> <hudtexture:KillIcon_Arrest> <TEAM COLOUR><ArrestedCharacterName></col>
 HUDMessages_AM_CombatArrestOpp_ChatText=
 HUDMessages_AM_CombatArrestTeam_DisplayText=<TEAM COLOUR><CharacterNameA></col> <hudtexture:KillIcon_Arrest> <ENEMY COLOUR><CharacterNameB></col>
@@ -124,8 +125,10 @@ HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col>
 HUDMessages_AM_CombatTKTeam_ChatText=
 HUDMessages_AM_CombatTKTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <hudtexture:KillIcon_Generic> <TEAM COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatTKTeamOther_ChatText=
+```
 
 ## Alternative kill feed layout (P1 > P2 Weapon)
+```
 HUDMessages_AM_CombatArrestOpp_DisplayText=<ENEMY COLOUR><ArrestingCharacterName></col> > <TEAM COLOUR><ArrestedCharacterName></col> <hudtexture:KillIcon_Arrest></col>
 HUDMessages_AM_CombatArrestOpp_ChatText=
 HUDMessages_AM_CombatArrestTeam_DisplayText=<TEAM COLOUR><CharacterNameA></col> > <ENEMY COLOUR><CharacterNameB></col> <hudtexture:KillIcon_Arrest></col>
@@ -172,4 +175,5 @@ HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col>
 HUDMessages_AM_CombatTKTeam_ChatText=
 HUDMessages_AM_CombatTKTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> > <TEAM COLOUR><KilledCharacterName></col> <hudtexture:KillIcon_Generic></col>
 HUDMessages_AM_CombatTKTeamOther_ChatText=
+```
 
