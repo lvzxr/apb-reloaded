@@ -10,5 +10,4 @@ What's Included:
 - Keybinds
 - Vehicle Amp Levels
 - No Login Screen
-- Faster UI (Adam)
 - Normal Ragdolls + Emitters Fix
