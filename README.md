@@ -16,7 +16,7 @@ Everything is laid out in such a way to where you can just `Drag & Drop` the con
 > When the game updates you will have to reapply most of the config as the launcher overwrites modifications to most of the files, if something major changes it's recommended to also run the `Repair` option within the launcher to ensure all files are up to date, if there are files that change that are within the config I will be sure to update them as soon as possible.
 
 > [!IMPORTANT]
-> Due to the new way the login screen removal works if you want to make a new characterl then you will need to make sure that `TimeBetweenPurgingPendingKillObjects=60` within `BaseEngine.ini` alongside having both the `Map` and `LocalMap` values located within `DefaultEngine.ini` to be set to `APBLoginLevel.apb` instead of the configs `UIDistrict_DistrictSelect.apb`. You can set this back afterwards but until there is a more fleshed out way to remove the login screen you will have to do this or run no config when making a new character.
+> Due to the new way the login screen removal works if you want to make a new character then you will need to make sure that `TimeBetweenPurgingPendingKillObjects=60` within `BaseEngine.ini` alongside having both the `Map` and `LocalMap` values located within `DefaultEngine.ini` to be set to `APBLoginLevel.apb` instead of the configs `UIDistrict_DistrictSelect.apb`. You can set this back afterwards but until there is a more fleshed out way to remove the login screen you will have to do this or run no config when making a new character.
 
 # Launch Arguments
 
