@@ -9,5 +9,4 @@ What's Included:
 - Graphics (Mixed File)
 - Keybinds
 - Vehicle Amp Levels
-- No Login Screen
 - Normal Ragdolls + Emitters Fix
