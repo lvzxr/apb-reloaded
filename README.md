@@ -6,7 +6,7 @@ Everything within this config is typically kept up to date with what LO will all
 
 # Install
 
-Go into `APB Reloaded\Binaries` and right click APB.exe (`APB if you don't have File Extensions shown`) and create a shortcut placing it wherever you desire, then right click the newly created APB shortcut and go to properties, from there at the end of the `Target` field add whichever launch arguments you require from below.
+Go into `APB Reloaded\Binaries` and right click APB.exe (APB if you don't have **File Extensions** shown) and create a shortcut placing it wherever you desire, then right click the newly created APB shortcut and go to properties, from there at the end of the `Target` field add whichever launch arguments you require from below.
 
 Everything is laid out in such a way to where you can just `Drag & Drop` the config into the game without you having to go fishing through folders. So if you see `APBGame` or `Engine` that is all you will need to copy into your game.
 > [!CAUTION]
@@ -14,9 +14,6 @@ Everything is laid out in such a way to where you can just `Drag & Drop` the con
 
 >[!NOTE]
 > When the game updates you will have to reapply most of the config as the launcher overwrites modifications to most of the files, if something major changes it's recommended to also run the `Repair` option within the launcher to ensure all files are up to date, if there are files that change that are within the config I will be sure to update them as soon as possible.
-
-> [!IMPORTANT]
-> Due to the new way the login screen removal works if you want to make a new character then you will need to make sure that `TimeBetweenPurgingPendingKillObjects=60` within `BaseEngine.ini` alongside having both the `Map` and `LocalMap` values located within `DefaultEngine.ini` to be set to `APBLoginLevel.apb` instead of the configs `UIDistrict_DistrictSelect.apb`. You can set this back afterwards but until there is a more fleshed out way to remove the login screen you will have to do this or run no config when making a new character.
 
 # Launch Arguments
 
@@ -45,59 +42,54 @@ Target Field Example
 
 # Misc
 > [!NOTE]
-> If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame
-
-> [!IMPORTANT]
-> If you are using the GC Off files and want to go and modify your outfits then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights
+> If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame.
 
 > [!NOTE]
-> If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time
+> If you would like to have no login screen (with the downside being the inability to create a new character with it) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to **UIDistrict_DistrictSelect.apb**.
+
+> [!IMPORTANT]
+> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights.
+
+> [!NOTE]
+> If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time.
 
 # Command Changes (If using localization)
 
 - /exit -> /rq
 - /dance variants -> /urban /michael /techno etc.
 - /strikeapose1/2 -> /pose1 /pose2
-- /groupinvitemodedefault -> /gimd (When not in a group type, "/gimd true" to allow all members of group to be able to invite everytime)
+- /groupinvitemodedefault -> /gimd (Run /gimd true on all characters when not in a group to set group invites to everyone.)
 
 # Graphics
 > [!NOTE]
-> Shadows should work on all presets, if you want them just enable it under advanced after selecting the preset you like. If it doesn't work however go into `APBMachineOptions` and remove the `DynamicShadows` and `LightEnvironmentShadows` lines, save, restart the game then re-enable shadows again.
+> Shadows should work on all presets, if you want them just enable it under advanced graphics in-game after selecting the preset you like. If it doesn't work however go into `APBMachineOptions` and remove the `DynamicShadows` and `LightEnvironmentShadows` lines, save, restart the game then re-enable shadows again.
 
 > [!IMPORTANT]
-> When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen.
+> When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen and then reboot.
 
 ### Mixed (Recommended for most people)
 
-- MINIMAL	- High Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
-- LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
-- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Mid VFX, Obj Circles Off, Fog Off
-- MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
+- MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX
+- LOW 		- Same as minimal just low poly characters
+- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX
+- HIGH 		- Same as medium just low poly characters
+- MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX
 
 ### High
 
-- MINIMAL	- High Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- LOW 		- High Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
-- HIGH 		- High Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles Off, Fog Off
-- MAXIMUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
-
-### Mid
-
-- MINIMAL	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- LOW 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
-- HIGH 		- Mid Env, HQ Low Poly Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
-- MAXIMUM 	- Mid Env, High Character, High Car, High Weapon, High Prop, High VFX, Obj Circles On, Fog Off
+- MINIMAL	- Mid Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX
+- LOW 		- Same as minimal just low poly characters
+- MEDIUM 	- High Env, High Character, High Car, High Weapon, High Prop, High VFX
+- HIGH 		- Same as medium just low poly characters
+- MAXIMUM 	- Same as medium but with further LOD ranges
 
 ### Low
 
-- MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- LOW 		- Low Env, HQ Low Poly Character, High Car, High Weapon, Mid Prop, Low VFX, Obj Circles Off, Fog Off
-- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
-- HIGH 		- Low Env, HQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
-- MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX, Obj Circles Off, Fog Off
+- MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX
+- LOW 		- Same as minimal just low poly characters
+- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Low Prop, Low VFX
+- HIGH 		- Same as medium just low poly characters
+- MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX
 
 # Keybinds
 All of the binds listed below are there as additions to the original keybinds so you have the choice rather than being forced to use one or the other. This just means that you will have to go to the respective keybind category and set which options you prefer.
@@ -146,7 +138,7 @@ As this is something that can be quite customised I'm not going to create preset
 # Remove / Uninstall
 
 > [!IMPORTANT]
-> If you wish to uninstall the config it is recommended that you run the `Repair` within the APB Launcher to get back to stock. Other than that all you should need to do is **Delete DefaultCompat.ini** from `APBGame\Config` and **Delete GER** from `APBGame\Localization`. Once both of those are deleted and the launcher has repaired, the config should be completely removed.
+> If you wish to uninstall the config it is recommended that you run the `Repair` within the APB Launcher to get back to stock. Other than that all you should need to do is **Delete DefaultCompat.ini** from `APBGame\Config` (*before version 3.2*) and **Delete GER** from `APBGame\Localization`. Once both of those are deleted and the launcher has repaired, the config should be completely removed.
 
 # Credits
 
