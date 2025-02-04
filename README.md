@@ -23,7 +23,7 @@ Everything is laid out in such a way to where you can just `Drag & Drop` the con
 - `-nosplash`                       - Removes initial splash screen upon boot
 
 Target Field Example
-`"G:\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
+`"..\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
 
 # GC On + Streaming Off
 - All of the social kiosks e.g clothing, vehicle, character, theme and symbol work fine with these files
@@ -128,7 +128,7 @@ As this is something that can be quite customised I'm not going to create preset
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 - Graphics - Preset settings listed above.
-- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also have the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
+- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also has the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
 
 ## Audio
 
@@ -152,6 +152,14 @@ As this is something that can be quite customised I'm not going to create preset
 - jmilos :japanese_goblin: - Combat / Vehicle keybinds
 - myamai :space_invader: - Creating localization resources
 
-# [Flaws APB Config](https://github.com/flawsv/apb)
-# [xaizone APB Config](https://github.com/xaizone/apb-reloaded)
-# [myamai APB Localization Resources](https://myamai.neocities.org/apb/localization)
+### [Flaws APB Config](https://github.com/flawsv/apb)
+
+### [xaizone APB Config](https://github.com/xaizone/apb-reloaded)
+
+### [myamai APB Localization Resources](https://myamai.neocities.org/apb/localization)
+
+### [Advanced Launcher](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip)
+
+### [CLauncher](https://www.clauncher.download/)
+
+### [APB Beginner's Guide by Flaws](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227)
