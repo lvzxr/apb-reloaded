@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AmpLevels>
   <Level1>
-    <Volume>1</Volume>
+    <Volume>0</Volume>
     <AttenuationScaling>0.01</AttenuationScaling>
   </Level1>
   <Level2>
-    <Volume>1</Volume>
+    <Volume>0</Volume>
     <AttenuationScaling>0.01</AttenuationScaling>
   </Level2>
   <Level3>
-    <Volume>1</Volume>
+    <Volume>0</Volume>
     <AttenuationScaling>0.01</AttenuationScaling>
   </Level3>
   <Level4>
-    <Volume>1</Volume>
+    <Volume>0</Volume>
     <AttenuationScaling>0.01</AttenuationScaling>
   </Level4>
   <Level5>
-    <Volume>1</Volume>
+    <Volume>0</Volume>
     <AttenuationScaling>0.01</AttenuationScaling>
   </Level5>
 </AmpLevels>
