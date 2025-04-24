@@ -6,11 +6,11 @@ Everything within this config is typically kept up to date with what LO will all
 
 # Install
 
-Go into `APB Reloaded\Binaries` and right click APB.exe (APB if you don't have **File Extensions** shown) and create a shortcut placing it wherever you desire, then right click the newly created APB shortcut and go to properties, from there at the end of the `Target` field add whichever launch arguments you require from below.
+Go into `APB Reloaded\Binaries` and right click **APB.exe** (**APB** if you don't have **File Extensions** shown) and create a shortcut placing it wherever you desire, then right click the newly created APB shortcut and go to properties, from there at the end of the `Target` field add whichever launch arguments you wish to use from below.
 
-Everything is laid out in such a way to where you can just `Drag & Drop` the config into the game without you having to go fishing through folders. So if you see `APBGame` or `Engine` that is all you will need to copy into your game.
+Everything is laid out in such a way to where you can just **Drag & Drop** the config into the game without you having to go fishing through folders. So if you see `APBGame` or `Engine` that is all you will need to copy into your game.
 > [!CAUTION]
-> If you do not get the prompt for replacing files then you haven't correctly installed the config and will likely have to repair the game using the Launcher.
+> If you do not get the prompt for replacing files then you haven't correctly installed the config and will likely have to repair the game using the Launcher. Localization is an exception to this as if it's a fresh install of the game, they will not exist.
 
 >[!NOTE]
 > When the game updates you will have to reapply most of the config as the launcher overwrites modifications to most of the files, if something major changes it's recommended to also run the `Repair` option within the launcher to ensure all files are up to date, if there are files that change that are within the config I will be sure to update them as soon as possible.
@@ -45,10 +45,10 @@ Target Field Example
 > If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame.
 
 > [!NOTE]
-> If you would like to have no login screen (with the downside being the inability to create a new character with it) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to **UIDistrict_DistrictSelect.apb**.
+> If you would like to have no login screen (character creation unavailable) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to `UIDistrict_DistrictSelect.apb` then save.
 
 > [!IMPORTANT]
-> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set TimeBetweenPurgingPendingKillObjects -> 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights.
+> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set `TimeBetweenPurgingPendingKillObjects` to 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights.
 
 > [!NOTE]
 > If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time.
@@ -103,7 +103,7 @@ All of the binds listed below are there as additions to the original keybinds so
    - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
    - Movement  | Crouch (Old Hold) - The same hold to crouch we've had for years that can get stuck with jump + crouch/sprint + crouch
    - Movement  | Crouch (New Hold) - Alternative method for hold to crouch that doesn't get stuck as it implements a jump before crouching
-   - Driving   | Vehicle Special Function (Hold) - This allows you to hold the siren on rather than have it toggle, if it gets stuck hold the button whilst getting out of the car to reset it 
+   - Driving   | Vehicle Special Function (Hold) - This allows you to hold the siren on rather than have it toggle, if it gets stuck hold the button whilst getting out of the car to reset it, or have a bind for toggle aswell
    - Combat    | Lean (Hold) - Hold down the lean key rather than have it toggle
    - Combat    | Primary/Secondary weapon - Allows you to set keys to select which weapon you want rather than cycle between them which is the default behaviour
    - Music     | Music Player Volume - Controls the volume of the music player in steps of 20
