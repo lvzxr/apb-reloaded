@@ -20,19 +20,19 @@
 ### Killfeed
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_ActionMessage"
 
-### Radial hit circle (Tells you where you're being hit from)
+### Radial hit marker (shows you where you're being shot from)
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_HitIndicators"
 
 ### Health indication
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Health"
 
-### Progress circle for objectives
+### Progress circle for objectives/resupply
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_CSAProgressBars"
 
 ### Radar
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Radar"
 
-### Player modifications right
+### Player modifications/consumables
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_HUD_Usables"
 
 ### Cash top right
@@ -75,7 +75,7 @@
  +GlobalDataStoreClasses="APBUserInterface.cUIDataStore_APBImages"
 
 # Modified kill feed
-When putting the modified kill feed in you will need to change ```<ENEMY COLOUR>, <TEAM COLOUR> and <MISC COLOUR>``` to a colour of your liking using the list provided on the 'APB Localization Resources' listed at the bottom of the Readme, once you've changed those you can just overwrite lines 104-149 if using my localization and lines 107-152 if using Flaws localization.
+When putting the modified kill feed in you will need to change ```<ENEMY COLOUR>, <TEAM COLOUR>, <MISC COLOUR1> and <MISC COLOUR2>``` to a colour of your liking using the list provided on the 'APB Localization Resources' listed at the bottom of the Readme, once you've changed those you can just overwrite lines 104-149 if using my localization and lines 107-152 if using Flaws localization.
 
 ## Stock kill feed layout (P1 Weapon P2)
 ```
@@ -83,9 +83,9 @@ HUDMessages_AM_CombatArrestOpp_DisplayText=<ENEMY COLOUR><ArrestingCharacterName
 HUDMessages_AM_CombatArrestOpp_ChatText=
 HUDMessages_AM_CombatArrestTeam_DisplayText=<TEAM COLOUR><CharacterNameA></col> <hudtexture:KillIcon_Arrest> <ENEMY COLOUR><CharacterNameB></col>
 HUDMessages_AM_CombatArrestTeam_ChatText=
-HUDMessages_AM_CombatKillOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col><WeaponIcon> <TEAM COLOUR><KilledCharacterName></col>
+HUDMessages_AM_CombatKillOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR2><KillerAssistName></col><WeaponIcon> <TEAM COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatKillOpp_ChatText=
-HUDMessages_AM_CombatKillTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col><WeaponIcon> <ENEMY COLOUR><KilledCharacterName></col>
+HUDMessages_AM_CombatKillTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR1><KillerAssistName></col><WeaponIcon> <ENEMY COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatKillTeam_ChatText=
 HUDMessages_AM_CombatKillTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <hudtexture:KillIcon_Generic> <ENEMY COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatKillTeamOther_ChatText=
@@ -117,11 +117,11 @@ HUDMessages_AM_CombatSuicideOpp_DisplayText=<hudtexture:KillIcon_Generic> <ENEMY
 HUDMessages_AM_CombatSuicideOpp_ChatText=
 HUDMessages_AM_CombatSuicideTeam_DisplayText=<hudtexture:KillIcon_Generic> <TEAM COLOUR><CharacterNameA></col>
 HUDMessages_AM_CombatSuicideTeam_ChatText=
-HUDMessages_AM_CombatTKOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col><WeaponIcon> <ENEMY COLOUR><KilledCharacterName></col>
+HUDMessages_AM_CombatTKOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR2><KillerAssistName></col><WeaponIcon> <ENEMY COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatTKOpp_ChatText=
 HUDMessages_AM_CombatTKOppOther_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <hudtexture:KillIcon_Generic> <ENEMY COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatTKOppOther_ChatText=
-HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col><WeaponIcon><TEAM COLOUR><KilledCharacterName></col>
+HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR1><KillerAssistName></col><WeaponIcon><TEAM COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatTKTeam_ChatText=
 HUDMessages_AM_CombatTKTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <hudtexture:KillIcon_Generic> <TEAM COLOUR><KilledCharacterName></col>
 HUDMessages_AM_CombatTKTeamOther_ChatText=
@@ -133,9 +133,9 @@ HUDMessages_AM_CombatArrestOpp_DisplayText=<ENEMY COLOUR><ArrestingCharacterName
 HUDMessages_AM_CombatArrestOpp_ChatText=
 HUDMessages_AM_CombatArrestTeam_DisplayText=<TEAM COLOUR><CharacterNameA></col> > <ENEMY COLOUR><CharacterNameB></col> <hudtexture:KillIcon_Arrest></col>
 HUDMessages_AM_CombatArrestTeam_ChatText=
-HUDMessages_AM_CombatKillOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col> > <TEAM COLOUR><KilledCharacterName></col> <WeaponIcon></col>
+HUDMessages_AM_CombatKillOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR2><KillerAssistName></col> > <TEAM COLOUR><KilledCharacterName></col> <WeaponIcon></col>
 HUDMessages_AM_CombatKillOpp_ChatText=
-HUDMessages_AM_CombatKillTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col> > <ENEMY COLOUR><KilledCharacterName></col> <WeaponIcon></col>
+HUDMessages_AM_CombatKillTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR1><KillerAssistName></col> > <ENEMY COLOUR><KilledCharacterName></col> <WeaponIcon></col>
 HUDMessages_AM_CombatKillTeam_ChatText=
 HUDMessages_AM_CombatKillTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> > <ENEMY COLOUR><KilledCharacterName></col> <hudtexture:KillIcon_Generic></col>
 HUDMessages_AM_CombatKillTeamOther_ChatText=
@@ -167,11 +167,11 @@ HUDMessages_AM_CombatSuicideOpp_DisplayText=<ENEMY COLOUR><CharacterNameA></col>
 HUDMessages_AM_CombatSuicideOpp_ChatText=
 HUDMessages_AM_CombatSuicideTeam_DisplayText=<TEAM COLOUR><CharacterNameA></col> <hudtexture:KillIcon_Generic></col>
 HUDMessages_AM_CombatSuicideTeam_ChatText=
-HUDMessages_AM_CombatTKOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col> > <ENEMY COLOUR><KilledCharacterName></col> <WeaponIcon></col>
+HUDMessages_AM_CombatTKOpp_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> <MISC COLOUR2><KillerAssistName></col> > <ENEMY COLOUR><KilledCharacterName></col> <WeaponIcon></col>
 HUDMessages_AM_CombatTKOpp_ChatText=
 HUDMessages_AM_CombatTKOppOther_DisplayText=<ENEMY COLOUR><KillerCharacterName></col> > <ENEMY COLOUR><KilledCharacterName></col> <hudtexture:KillIcon_Generic></col>
 HUDMessages_AM_CombatTKOppOther_ChatText=
-HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR><KillerAssistName></col> > <TEAM COLOUR><KilledCharacterName></col> <WeaponIcon></col>
+HUDMessages_AM_CombatTKTeam_DisplayText=<TEAM COLOUR><KillerCharacterName></col> <MISC COLOUR1><KillerAssistName></col> > <TEAM COLOUR><KilledCharacterName></col> <WeaponIcon></col>
 HUDMessages_AM_CombatTKTeam_ChatText=
 HUDMessages_AM_CombatTKTeamOther_DisplayText=<TEAM COLOUR><KillerCharacterName></col> > <TEAM COLOUR><KilledCharacterName></col> <hudtexture:KillIcon_Generic></col>
 HUDMessages_AM_CombatTKTeamOther_ChatText=
