@@ -48,10 +48,7 @@ Target Field Example
 > If you would like to have no login screen (character creation unavailable) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to `UIDistrict_DistrictSelect.apb` then save.
 
 > [!IMPORTANT]
-> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set `TimeBetweenPurgingPendingKillObjects` to 60, restart the game and then once you're done designing set this back to 0 and restart your game again to continue having no stuttering during fights.
-
-> [!NOTE]
-> If you aren't already using them I recommend using the Emitters fix as it stops props such as AC Units, Gas Station Pumps and Car Spawners from emitting an ear piercing sound when standing near them after playing for a longer period of time.
+> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set `TimeBetweenPurgingPendingKillObjects` to `60`, restart the game and then once you're done designing set this back to `0` and restart your game again to continue having no stuttering during fights.
 
 # Command Changes (If using localization)
 
@@ -122,18 +119,13 @@ As this is something that can be quite customised I'm not going to create preset
 
 ## Interface
 
-- Localization - My custom take on APB's localization. A lot of the localization has been rewritten and made to, for most presets NOT appear in ORANGE :triumph:
+- Localization - My custom take on APB's localization.
 
 ## Visual
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 - Graphics - Preset settings listed above.
 - Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also has the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
-
-## Audio
-
-- Vehicle Amp Levels - Sets vehicle amp levels to a very low value so you shouldn't hear music out of cars, doesn't affect open world music points (including boom boxes) / when someone is playing music created in the studio out of a car you are sat in.
-- Remove Default Music - Removes the default music that comes with the game (previously a part of Vehicle Amp Levels).
 
 # Remove / Uninstall
 
@@ -160,6 +152,6 @@ As this is something that can be quite customised I'm not going to create preset
 
 ### [Advanced Launcher](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip)
 
-### [CLauncher](https://www.clauncher.download/)
+### [CLauncher]([https://www.clauncher.download/](https://clauncher.io/)
 
 ### [APB Beginner's Guide by Flaws](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227)
