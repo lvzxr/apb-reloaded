@@ -152,6 +152,6 @@ As this is something that can be quite customised I'm not going to create preset
 
 ### [Advanced Launcher](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip)
 
-### [CLauncher]([https://www.clauncher.download/](https://clauncher.io/)
+### [CLauncher](https://www.clauncher.io/)
 
 ### [APB Beginner's Guide by Flaws](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227)
