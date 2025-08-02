@@ -38,7 +38,7 @@ Target Field Example
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
 
 > [!IMPORTANT]
-> If you find yourself frozen on the repsawn screen for an extended period of time and either your team or the enemy progresses to the next stage of a mission you will not be able to see the new objective(s) when you respawn, this is a bug and there is no way around it without re-enabling garbage collection. 
+> If you find yourself frozen on the respawn screen for an extended period of time and either your team or the enemy progresses to the next stage of a mission you will not be able to see the new objective(s) when you respawn, this is a bug and there is no way around it without re-enabling garbage collection. 
 
 # Misc
 > [!NOTE]
