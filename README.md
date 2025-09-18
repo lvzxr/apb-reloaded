@@ -2,18 +2,19 @@
 Everything within this config is typically kept up to date with what LO will allow/disallow when it comes to modifying files so when I provide an update it's always recommended to download it and ensure you're up to date, older versions whilst still available shouldn't be used unless you know what you want out of them is allowed.
 
 > [!IMPORTANT]
-> Whilst everything within the latest version of the config will be safe to use and what LO allows if anything were to happen to your account due to use of modifed game files that is not my responsibility.
+> If anything were to happen to your account due to use of modifed game files that is not my responsibility, you can contact Little Orbit support at **support@littleorbit.com**
 
 # Install
 
-Go into `APB Reloaded\Binaries` and right click **APB.exe** (**APB** if you don't have **File Extensions** shown) and create a shortcut placing it wherever you desire, then right click the newly created APB shortcut and go to properties, from there at the end of the `Target` field add whichever launch arguments you wish to use from below.
+Go into `APB Reloaded\Binaries` and right click **APB.exe** (**APB** if you don't have **File Extensions** shown) and create a shortcut, then right click the newly created APB shortcut and go to properties, at the end of the `Target` field add whichever launch arguments you wish to use from below.
 
 Everything is laid out in such a way to where you can just **Drag & Drop** the config into the game without you having to go fishing through folders. So if you see `APBGame` or `Engine` that is all you will need to copy into your game.
+
 > [!CAUTION]
 > If you do not get the prompt for replacing files then you haven't correctly installed the config and will likely have to repair the game using the Launcher. Localization is an exception to this as if it's a fresh install of the game, they will not exist.
 
 >[!NOTE]
-> When the game updates you will have to reapply most of the config as the launcher overwrites modifications to most of the files, if something major changes it's recommended to also run the `Repair` option within the launcher to ensure all files are up to date, if there are files that change that are within the config I will be sure to update them as soon as possible.
+> When the game updates you will have to reapply most of the config as the launcher overwrites modifications to most of the files, if something major changes it's recommended to also run the `Repair` option within the launcher to ensure all files are up to date.
 
 # Launch Arguments
 
@@ -38,17 +39,15 @@ Target Field Example
 - You may experience large stutters on the respawn screen after a long time of being alive due to this now being when the garbage dump will happen
 
 > [!IMPORTANT]
-> If you find yourself frozen on the respawn screen for an extended period of time and either your team or the enemy progresses to the next stage of a mission you will not be able to see the new objective(s) when you respawn, this is a bug and there is no way around it without re-enabling garbage collection. 
+> If you find yourself frozen on the respawn screen for an extended period of time and either your team or the enemy progresses to the next stage of a mission you will not be able to see the new objective(s) when you respawn. This can also cause you to have ghost respawn circles appear on the map that when clicked do nothing. These bugs have no fixes without re-enabling garbage collection.
 
 # Misc
-> [!NOTE]
+
+> [!IMPORTANT]
 > If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame.
 
 > [!NOTE]
 > If you would like to have no login screen (character creation unavailable) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to `UIDistrict_DistrictSelect.apb` then save.
-
-> [!IMPORTANT]
-> If you are using the GC Off files and want to go and modify your outfits/character/vehicle then go to `Engine/Config/BaseEngine.ini`, set `TimeBetweenPurgingPendingKillObjects` to `60`, restart the game and then once you're done designing set this back to `0` and restart your game again to continue having no stuttering during fights.
 
 # Command Changes (If using localization)
 
@@ -58,8 +57,12 @@ Target Field Example
 - /groupinvitemodedefault -> /gimd (Run /gimd true on all characters when not in a group to set group invites to everyone.)
 
 # Graphics
+
 > [!NOTE]
-> Shadows should work on all presets, if you want them just enable it under advanced graphics in-game after selecting the preset you like. If it doesn't work however go into `APBMachineOptions` and remove the `DynamicShadows` and `LightEnvironmentShadows` lines, save, restart the game then re-enable shadows again.
+> Shadows should work on all presets, if you want them just enable it under advanced graphics in-game after selecting the preset you like. If it doesn't work however, go into `APBMachineOptions` and remove the `DynamicShadows` and `LightEnvironmentShadows` lines, save, restart the game then re-enable shadows again.
+
+> [!NOTE]
+> If you wish to remove bullet holes, in `APBCompat` set  `ParticleMaxWorldSpaceArea` to a value of `0.1` and so that the nade trails aren't almost invisible ensure that `TEXCAT_VFX Usage 0 and 1` have their `MaxLODSize` set to `16` and their `LODBias` set to `4`. **You cannot see vehicle fire with ParticleMaxWorldSpaceArea set this way**
 
 > [!IMPORTANT]
 > When switching between clay vehicles and standard your game may crash therefore I recommend you do this on the login screen and then reboot.
@@ -84,7 +87,7 @@ Target Field Example
 
 - MINIMAL	- Low Env, High Character, High Car, High Weapon, Mid Prop, Mid VFX
 - LOW 		- Same as minimal just low poly characters
-- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Low Prop, Low VFX
+- MEDIUM 	- Low Env, High Character, Clay Car, Low Weapon, Low Prop, Mid VFX
 - HIGH 		- Same as medium just low poly characters
 - MAXIMUM 	- Low Env, LQ Low Poly Character, Clay Car, Low Weapon, Low Prop, Low VFX
 
@@ -97,8 +100,6 @@ All of the binds listed below are there as additions to the original keybinds so
 *Category listed at beginning*
 
    - Interface | Social Designers - This will only work in social but lets you bind a key to open the Clothing, Character, Vehicle, Symbol and Theme studios
-   - Movement  | Always Sprint - Works exactly the same as the old Always sprint, just bind it, press it once spawned into a district and you will always be running
-   - Movement  | Crouch (Old Hold) - The same hold to crouch we've had for years that can get stuck with jump + crouch/sprint + crouch
    - Movement  | Crouch (New Hold) - Alternative method for hold to crouch that doesn't get stuck as it implements a jump before crouching
    - Driving   | Vehicle Special Function (Hold) - This allows you to hold the siren on rather than have it toggle, if it gets stuck hold the button whilst getting out of the car to reset it, or have a bind for toggle aswell
    - Combat    | Lean (Hold) - Hold down the lean key rather than have it toggle
