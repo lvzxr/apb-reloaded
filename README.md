@@ -43,9 +43,6 @@ Target Field Example
 
 # Misc
 
-> [!IMPORTANT]
-> If you wish to have a semi-transparent inventory screen once you've applied the config, go to `Engine/Config/BaseEngine.ini`, put a `;` before `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and turn on bloom ingame.
-
 > [!NOTE]
 > If you would like to have no login screen (character creation unavailable) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to `UIDistrict_DistrictSelect.apb` then save.
 
