@@ -114,6 +114,7 @@ As this is something that can be quite customised I'm not going to create preset
 - GC On + Streaming Off  - All information above.
 - GC Off Stutter Fix - All information above.
 - Keybinds - All information above.
+- Transparent UI - Makes all Kismet UI slightly transparent to mimic the look of how the UI looks with bloom, however with no UI blur.
 
 ## Interface
 
@@ -123,7 +124,6 @@ As this is something that can be quite customised I'm not going to create preset
 
 - No Ragdolls - Removes player/pedestrian ragdolls.
 - Graphics - Preset settings listed above.
-- Emitter Fix - Set's priorties of emitters and npcs to 1 so they are only played when really close to you, this also has the effect of making them quieter, included as different variants with ragdolls and muzzle flash.
 
 # Remove / Uninstall
 
