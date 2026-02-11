@@ -41,11 +41,6 @@ Target Field Example
 > [!IMPORTANT]
 > If you find yourself frozen on the respawn screen for an extended period of time and either your team or the enemy progresses to the next stage of a mission you will not be able to see the new objective(s) when you respawn. This can also cause you to have ghost respawn circles appear on the map that when clicked do nothing. These bugs have no fixes without re-enabling garbage collection.
 
-# Misc
-
-> [!NOTE]
-> If you would like to have no login screen (character creation unavailable) then go to `APBGame/Config/DefaultEngine` and set both `Map` and `LocalMap` to `UIDistrict_DistrictSelect.apb` then save.
-
 # Command Changes (If using localization)
 
 - /exit -> /rq
@@ -108,47 +103,27 @@ All of the binds listed below are there as additions to the original keybinds so
 
 # Disabling UI Elements
 As this is something that can be quite customised I'm not going to create presets for it however a quick rundown for how to do it can be found here: [Interface](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md)
-
-## Features
-
-- GC On + Streaming Off  - All information above.
-- GC Off Stutter Fix - All information above.
-- Keybinds - All information above.
-- Transparent UI - Makes all Kismet UI slightly transparent to mimic the look of how the UI looks with bloom, however with no UI blur.
-
-## Interface
-
-- Localization - My custom take on APB's localization.
-
-## Visual
-
-- No Ragdolls - Removes player/pedestrian ragdolls.
-- Graphics - Preset settings listed above.
+Alternatively you can swap to utilising my other repo that has a batch based config loader with UI customisation built in.
 
 # Remove / Uninstall
-
 > [!IMPORTANT]
 > If you wish to uninstall the config it is recommended that you run the `Repair` within the APB Launcher to get back to stock. Other than that all you should need to do is **Delete DefaultCompat.ini** from `APBGame\Config` (*before version 3.2*) and **Delete GER** from `APBGame\Localization`. Once both of those are deleted and the launcher has repaired, the config should be completely removed.
 
 # Credits
-
 - Flaws :clown_face: - No ragdolls
 - rooq :skull: - Mission descriptions
 - Esurient :robot: - Engine related changes
 - Leefekyn :sunglasses: - Alt mission titles
-- mewpri :alien: - Studio keybinds
-- Kyouki :nerd_face: - Garbage collection settings
-- ApollyoNite :smiley: - RTW Vegas / Bishada (No longer included)
+- mewpri :alien: - Studio keybinds / Vehicle+Weapon stats
 - jmilos :japanese_goblin: - Combat / Vehicle keybinds
 - myamai :space_invader: - Creating localization resources
+- AltShadow :fox_face: - Weapon icons in UI elements
 
 ### [Flaws APB Config](https://github.com/flawsv/apb)
 
 ### [xaizone APB Config](https://github.com/xaizone/apb-reloaded)
 
 ### [myamai APB Localization Resources](https://myamai.neocities.org/apb/localization)
-
-### [Advanced Launcher](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip)
 
 ### [CLauncher](https://www.clauncher.io/)
 
