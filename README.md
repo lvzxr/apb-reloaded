@@ -101,10 +101,6 @@ All of the binds listed below are there as additions to the original keybinds so
 
 *Default Xbox controller related keybinds are removed with this file*
 
-# Disabling UI Elements
-As this is something that can be quite customised I'm not going to create presets for it however a quick rundown for how to do it can be found here: [Interface](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md)
-Alternatively you can swap to utilising my other repo that has a batch based config loader with UI customisation built in.
-
 # Remove / Uninstall
 > [!IMPORTANT]
 > If you wish to uninstall the config it is recommended that you run the `Repair` within the APB Launcher to get back to stock. Other than that all you should need to do is **Delete DefaultCompat.ini** from `APBGame\Config` (*before version 3.2*) and **Delete GER** from `APBGame\Localization`. Once both of those are deleted and the launcher has repaired, the config should be completely removed.
